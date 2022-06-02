@@ -25,10 +25,10 @@ function Navbar({title}) {
   </nav>
 }
 Navbar.defaultProps = {
-  title: 'Github Finder'
+  title: 'Github Finder',
 }
 Navbar.propTypes = {
-  title:PropTypes.string
+  title:PropTypes.string,
 }
 
 

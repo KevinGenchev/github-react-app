@@ -12,7 +12,8 @@ function RepoItem({ repo }) {
     stargazers_count,
   } = repo;
 
-  return <div className="mb-2 rounded-md card bg-gray-800 hover:bg-gray-900">
+  return ( 
+  <div className="mb-2 rounded-md card bg-gray-800 hover:bg-gray-900">
     <div className="card-body">
       <h3 className="mb-2 text-xl font-semibold">
           <a href={html_url}>
@@ -35,7 +36,8 @@ function RepoItem({ repo }) {
         </div>
       </div>
     </div>
-  </div>;
+  </div>
+  )
 }
 
 RepoItem.propTypes = {
